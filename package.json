@@ -1,0 +1,32 @@
+{
+  "name": "pristine-styles",
+  "version": "0.1.0",
+  "description": "Design tokens and normalize.css for Pristine UI",
+  "license": "MIT",
+  "author": "psi <cylonsido@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cyril2day/pristine-styles"
+  },
+  "homepage": "https://github.com/cyril2day/pristine-styles#readme",
+  "bugs": "https://github.com/cyril2day/pristine-styles/issues",
+  "keywords": [
+    "css",
+    "scss",
+    "design-tokens",
+    "normalize.css",
+    "design-system"
+  ],
+  "main": "pristine-styles.css",
+  "style": "pristine-styles.css",
+  "files": [
+    "pristine-styles.css"
+  ],
+  "scripts": {
+    "build": "sass scss/index.scss pristine-styles.css --no-source-map",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}

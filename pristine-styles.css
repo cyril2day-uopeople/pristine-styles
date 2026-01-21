@@ -1,0 +1,622 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+:root {
+  --breakpoint-small-phone: 480px;
+  --breakpoint-phone-tablet-transition: 767px;
+  --breakpoint-small-tablet: 1023px;
+  --breakpoint-tablet-desktop-transition: 1068px;
+  --breakpoint-small-desktop: 1250px;
+}
+
+:root {
+  --color-red: hsl(359, 100%, 61%);
+  --color-orange: hsl(28, 100%, 58%);
+  --color-yellow: hsl(48, 100%, 50%);
+  --color-green: hsl(135, 59%, 49%);
+  --color-mint: hsl(174, 100%, 39%);
+  --color-teal: hsl(184, 100%, 41%);
+  --color-cyan: hsl(199, 78%, 55%);
+  --color-blue: hsl(208, 100%, 50%);
+  --color-indigo: hsl(245, 89%, 65%);
+  --color-purple: hsl(293, 74%, 53%);
+  --color-pink: hsl(349, 100%, 59%);
+  --color-brown: hsl(25, 32%, 52%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-black: hsl(0, 0%, 0%);
+  --color-gray: hsl(240, 2%, 57%);
+  --color-gray2: hsl(240, 3%, 69%);
+  --color-gray3:	hsl(240, 5%, 79%);
+  --color-gray4:	hsl(240, 6%, 83%);
+  --color-gray5:	hsl(240, 11%, 91%);
+  --color-gray6: hsl(240, 24%, 96%);
+  --text-primary: hsla(0, 0%, 0%, 0.85);
+  --text-secondary: hsla(0, 0%, 0%, 0.50);
+  --text-tertiary: hsla(0, 0%, 0%, 0.25);
+  --text-quaternary: hsla(0, 0%, 0%, 0.10);
+  --text-quinary: hsla(0, 0%, 0%, 0.05);
+  --background-color: var(--color-white);
+  --surface-color-primary:	hsl(240, 51%, 100%, 0.9);
+  --surface-color-secondary: hsl(240, 25%, 98%);
+  --surface-color-tertiary: hsl(0, 0%, 94%);
+  --surface-color-quaternary: hsl(240, 11%, 96%) ;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-red: hsl(359, 100%, 63%);
+    --color-orange: hsl(28, 100%, 59%);
+    --color-yellow: hsl(50, 100%, 50%);
+    --color-green: hsl(135, 64%, 50%);
+    --color-mint: hsl(174, 100%, 43%);
+    --color-teal: hsl(184, 100%, 44%);
+    --color-cyan: hsl(197, 100%, 70%);
+    --color-blue: hsl(206, 100%, 50%);
+    --color-indigo: hsl(234, 100%, 71%);
+    --color-purple: hsl(293, 88%, 58%);
+    --color-pink: hsl(348, 100%, 61%);
+    --color-brown: hsl(27, 36%, 56%);
+    --color-gray: hsl(240, 2%, 61%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-black: hsl(0, 0%, 0%);
+    --color-gray2:	hsl(240, 1%, 39%);
+    --color-gray3:	hsl(240, 1%, 29%);
+    --color-gray4:	hsl(240, 2%, 23%);
+    --color-gray5: hsl(240, 2%, 18%);
+    --color-gray6:	hsl(240, 3%, 11%);
+    --text-primary: hsla(0, 0%, 100%, 0.85);
+    --text-secondary: hsla(0, 0%, 100%, 0.50);
+    --text-tertiary: hsla(0, 0%, 100%, 0.25);
+    --text-quaternary: hsla(0, 0%, 100%, 0.10);
+    --text-quinary: hsla(0, 0%, 100%, 0.05);
+    --background-color: var(--color-black);
+    --surface-color-primary: var(--color-black);
+    --surface-color-secondary:	hsl(240, 2%, 9%);
+    --surface-color-tertiary: hsl(240, 3%, 12%);
+    --surface-color-quaternary: hsl(240, 2%, 9%);
+  }
+}
+.dark {
+  --color-red: hsl(359, 100%, 63%);
+  --color-orange: hsl(28, 100%, 59%);
+  --color-yellow: hsl(50, 100%, 50%);
+  --color-green: hsl(135, 64%, 50%);
+  --color-mint: hsl(174, 100%, 43%);
+  --color-teal: hsl(184, 100%, 44%);
+  --color-cyan: hsl(197, 100%, 70%);
+  --color-blue: hsl(206, 100%, 50%);
+  --color-indigo: hsl(234, 100%, 71%);
+  --color-purple: hsl(293, 88%, 58%);
+  --color-pink: hsl(348, 100%, 61%);
+  --color-brown: hsl(27, 36%, 56%);
+  --color-gray: hsl(240, 2%, 61%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-black: hsl(0, 0%, 0%);
+  --color-gray2:	hsl(240, 1%, 39%);
+  --color-gray3:	hsl(240, 1%, 29%);
+  --color-gray4:	hsl(240, 2%, 23%);
+  --color-gray5: hsl(240, 2%, 18%);
+  --color-gray6:	hsl(240, 3%, 11%);
+  --text-primary: hsla(0, 0%, 100%, 0.85);
+  --text-secondary: hsla(0, 0%, 100%, 0.50);
+  --text-tertiary: hsla(0, 0%, 100%, 0.25);
+  --text-quaternary: hsla(0, 0%, 100%, 0.10);
+  --text-quinary: hsla(0, 0%, 100%, 0.05);
+  --background-color: var(--color-black);
+  --surface-color-primary: var(--color-black);
+  --surface-color-secondary:	hsl(240, 2%, 9%);
+  --surface-color-tertiary: hsl(240, 3%, 12%);
+  --surface-color-quaternary: hsl(240, 2%, 9%);
+}
+
+:root {
+  --font-family-sans: -apple-system, BlinkMacSystemFont, system-ui, "SF Pro", "SF Pro Text", "San Francisco", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-family-mono: ui-monospace, "SF Mono", Monaco, Menlo, "Cascadia Code", "Source Code Pro", Consolas, monospace;
+  --font-family-serif: Georgia, "New York", Times, "Times New Roman", serif;
+}
+
+:root {
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+}
+
+:root {
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+  --font-weight-black: 900;
+}
+
+:root {
+  --line-height-none: 1;
+  --line-height-tight: 1.2;
+  --line-height-snug: 1.375;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.8;
+  --line-height-loose: 2;
+}
+
+:root {
+  --letter-spacing-tighter: -0.05em;
+  --letter-spacing-tight: -0.025em;
+  --letter-spacing-normal: 0;
+  --letter-spacing-wide: 0.025em;
+  --letter-spacing-wider: 0.05em;
+  --letter-spacing-widest: 0.1em;
+}
+
+@media (max-width: 1250px) {
+  :root {
+    --text-base: 0.975rem;
+    --text-lg: 1.1rem;
+    --text-xl: 1.225rem;
+    --text-2xl: 1.45rem;
+    --text-3xl: 1.8rem;
+    --text-4xl: 2.15rem;
+    --text-5xl: 2.85rem;
+  }
+}
+@media (max-width: 1068px) {
+  :root {
+    --text-base: 0.95rem;
+    --text-lg: 1.075rem;
+    --text-xl: 1.2rem;
+    --text-2xl: 1.4rem;
+    --text-3xl: 1.725rem;
+    --text-4xl: 2.05rem;
+    --text-5xl: 2.7rem;
+  }
+}
+@media (max-width: 1023px) {
+  :root {
+    --text-base: 0.925rem;
+    --text-lg: 1.05rem;
+    --text-xl: 1.175rem;
+    --text-2xl: 1.35rem;
+    --text-3xl: 1.65rem;
+    --text-4xl: 1.95rem;
+    --text-5xl: 2.55rem;
+  }
+}
+@media (max-width: 767px) {
+  :root {
+    --text-base: 0.9rem;
+    --text-lg: 1.025rem;
+    --text-xl: 1.15rem;
+    --text-2xl: 1.3rem;
+    --text-3xl: 1.575rem;
+    --text-4xl: 1.85rem;
+    --text-5xl: 2.4rem;
+  }
+}
+@media (max-width: 480px) {
+  :root {
+    --text-base: 0.875rem;
+    --text-lg: 1rem;
+    --text-xl: 1.125rem;
+    --text-2xl: 1.25rem;
+    --text-3xl: 1.5rem;
+    --text-4xl: 1.75rem;
+    --text-5xl: 2.25rem;
+  }
+}
+:root {
+  --z-index-auto: auto;
+  --z-index-base: 0;
+  --z-index-dropdown: 1000;
+  --z-index-sticky: 1020;
+  --z-index-fixed: 1030;
+  --z-index-modal-backdrop: 1040;
+  --z-index-modal: 1050;
+  --z-index-popover: 1060;
+  --z-index-tooltip: 1070;
+  --z-index-toast: 1080;
+  --z-index-max: 9999;
+}
+
+:root {
+  --opacity-0: 0;
+  --opacity-25: 0.25;
+  --opacity-50: 0.5;
+  --opacity-75: 0.75;
+  --opacity-100: 1;
+}
+
+:root {
+  --offset-none: 0;
+  --offset-xxs: 0.125rem;
+  --offset-xs: 0.25rem;
+  --offset-sm: 0.5rem;
+  --offset-md: 1rem;
+  --offset-lg: 1.5rem;
+  --offset-xl: 2rem;
+  --offset-2xl: 2.5rem;
+  --offset-3xl: 3rem;
+  --offset-4xl: 4rem;
+  --offset-5xl: 5rem;
+}
+
+:root {
+  --inset-none: var(--offset-none);
+  --inset-auto: auto;
+  --inset-full: 100%;
+  --inset-half: 50%;
+}
+
+:root {
+  --space-0: 0;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-7: 1.75rem;
+  --space-8: 2rem;
+  --space-9: 2.25rem;
+  --space-10: 2.5rem;
+  --space-11: 2.75rem;
+  --space-12: 3rem;
+  --space-14: 3.5rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-28: 7rem;
+  --space-32: 8rem;
+  --space-36: 9rem;
+  --space-40: 10rem;
+  --space-44: 11rem;
+  --space-48: 12rem;
+  --space-52: 13rem;
+  --space-56: 14rem;
+  --space-60: 15rem;
+  --space-64: 16rem;
+  --space-72: 18rem;
+  --space-80: 20rem;
+  --space-96: 24rem;
+}
+
+:root {
+  --border-width-0: 0;
+  --border-width-1: 1px;
+  --border-width-2: 2px;
+  --border-width-3: 4px;
+  --border-width-4: 6px;
+  --border-width-5: 8px;
+}
+
+:root {
+  --border-style-solid: solid;
+  --border-style-dashed: dashed;
+  --border-style-dotted: dotted;
+  --border-style-double: double;
+  --border-style-none: none;
+}
+
+:root {
+  --radius-none: 0;
+  --radius-xs: 0.125rem;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-3xl: 2rem;
+  --radius-full: 9999px;
+}
