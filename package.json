@@ -23,7 +23,6 @@
     "mobile-first",
     "responsive-design",
     "themeable",
-    "normalize.css",
     "design-system"
   ],
   "main": "pristine-styles.css",
@@ -33,12 +32,17 @@
   ],
   "scripts": {
     "build": "sass scss/index.scss pristine-styles.css --no-source-map",
+    "build:docs": "pnpm build && vite build && node scripts/build-docs.mjs",
+    "dev:docs": "vite",
+    "preview:docs": "vite preview",
     "prepublishOnly": "npm run build"
   },
-  "devDependencies": {
-    "sass": "^1.86.0"
-  },
   "dependencies": {
-    "normalize.css": "^8.0.1"
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.0",
+    "sass": "^1.86.0",
+    "vite": "^5.4.0"
   }
 }
