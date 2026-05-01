@@ -29,6 +29,13 @@
   ],
   "main": "pristine-styles.css",
   "style": "pristine-styles.css",
+  "exports": {
+    ".": {
+      "style": "./pristine-styles.css"
+    },
+    "./scss": "./scss/index.scss",
+    "./min": "./pristine-styles.min.css"
+  },
   "files": [
     "pristine-styles.css",
     "pristine-styles.min.css",
