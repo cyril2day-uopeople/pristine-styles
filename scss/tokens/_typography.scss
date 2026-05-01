@@ -10,8 +10,8 @@
 // -----------------------------------------------------------------------------
 
 :root {
-  --font-family-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-family-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  --font-family-sans: -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", sans-serif, ui-sans-serif;
+  --font-family-mono: SFMono-Regular, "SF Mono", ui-monospace, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
   --font-family-serif: ui-serif, Georgia, "Times New Roman", Times, serif;
 }
 
